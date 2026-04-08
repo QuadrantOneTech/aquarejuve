@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pressure Hydromassage | AquaRejuve - Mountain View, CA</title>
+  <meta name="description" content="Our signature pressure hydromassage uses targeted water jets at variable pressures to release deep muscle tension without discomfort.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="service.css">
+</head>
+<body>
+
+  <header class="header scrolled" id="header">
+    <nav class="nav container">
+      <a href="../index.html" class="nav-logo">
+        <span class="logo-aqua">Aqua</span><span class="logo-rejuve">Rejuve</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html#services">Services</a></li>
+        <li><a href="../index.html#benefits">Benefits</a></li>
+        <li><a href="../index.html#comparison">Why Water Massage</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <a href="../index.html#book" class="btn btn-primary nav-cta">Book Now</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="service-hero">
+    <div class="container">
+      <a href="../index.html#services" class="back-link">&larr; All Services</a>
+      <p class="section-tag">Signature Treatment</p>
+      <h1 class="section-title">Pressure Hydromassage</h1>
+      <p class="service-hero-subtitle">Targeted water jets at variable pressures work deep into muscle tissue, releasing tension without the discomfort of traditional elbow-and-thumb techniques.</p>
+      <div class="service-meta">
+        <span class="service-meta-item">45 / 60 / 90 min</span>
+        <span class="service-meta-item">From $59</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-body">
+    <div class="container">
+      <div class="service-content">
+        <h2>How It Works</h2>
+        <p>Our pressure hydromassage system delivers precisely calibrated water jets through a specialized bed or chamber. You lie comfortably while streams of warm, pressurized water target specific muscle groups. The pressure is fully adjustable — from a gentle 1 PSI for relaxation to an intense 10 PSI for deep tissue work — and can be varied across different body zones within a single session.</p>
+        <p>Unlike manual massage where pressure depends on the therapist's strength and technique, our water jets deliver perfectly consistent force that never fatigues, never varies, and penetrates up to 3x deeper than human hands.</p>
+
+        <h2>What to Expect</h2>
+        <div class="service-steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <div>
+              <h3>Consultation</h3>
+              <p>Your specialist maps your tension points and tailors the pressure zones, temperature, and jet patterns to your body's needs.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <div>
+              <h3>The Session</h3>
+              <p>Warm pressurized water jets systematically work through each muscle group — neck, shoulders, back, glutes, legs. You control the intensity at any time.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <div>
+              <h3>Cool Down</h3>
+              <p>A gentle tapering phase with reduced pressure and aromatherapy eases you back. You'll leave feeling deeply relaxed yet energized.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2>Best For</h2>
+        <ul class="service-list">
+          <li>Chronic back, neck, and shoulder tension</li>
+          <li>Desk workers with postural strain</li>
+          <li>General stress and anxiety relief</li>
+          <li>Anyone who finds traditional deep tissue too painful</li>
+          <li>Regular maintenance and preventive care</li>
+        </ul>
+
+        <h2>Session Options</h2>
+        <div class="service-pricing">
+          <div class="sp-card">
+            <h3>Express</h3>
+            <span class="sp-price">$59</span>
+            <span class="sp-dur">45 minutes</span>
+            <p>Focused on 1-2 problem areas</p>
+          </div>
+          <div class="sp-card featured">
+            <h3>Signature</h3>
+            <span class="sp-price">$99</span>
+            <span class="sp-dur">60 minutes</span>
+            <p>Full-body with aromatherapy</p>
+          </div>
+          <div class="sp-card">
+            <h3>Extended</h3>
+            <span class="sp-price">$149</span>
+            <span class="sp-dur">90 minutes</span>
+            <p>Deep session with warm towel finish</p>
+          </div>
+        </div>
+
+        <div class="service-cta">
+          <a href="../index.html#book" class="btn btn-primary btn-lg">Book This Treatment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 AquaRejuve. All rights reserved. <a href="../index.html">Back to Home</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => { links.classList.toggle('open'); toggle.classList.toggle('active'); });
+  </script>
+</body>
+</html>

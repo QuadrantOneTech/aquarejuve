@@ -363,6 +363,29 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 600; line-height
   text-transform: uppercase;
 }
 
+a.service-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.service-link {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: var(--transition);
+}
+
+.service-card:hover .service-link {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 /* ── Benefits ───────────────────────────────────────────────── */
 
 .benefits { padding: 100px 0; }

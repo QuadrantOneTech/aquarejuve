@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Rejuve | AquaRejuve - Mountain View, CA</title>
+  <meta name="description" content="A focused 30-minute hydromassage session targeting your problem areas for quick relief that fits into any schedule.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="service.css">
+</head>
+<body>
+
+  <header class="header scrolled" id="header">
+    <nav class="nav container">
+      <a href="../index.html" class="nav-logo">
+        <span class="logo-aqua">Aqua</span><span class="logo-rejuve">Rejuve</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html#services">Services</a></li>
+        <li><a href="../index.html#benefits">Benefits</a></li>
+        <li><a href="../index.html#comparison">Why Water Massage</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <a href="../index.html#book" class="btn btn-primary nav-cta">Book Now</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="service-hero">
+    <div class="container">
+      <a href="../index.html#services" class="back-link">&larr; All Services</a>
+      <p class="section-tag">Quick Relief</p>
+      <h1 class="section-title">Express Rejuve</h1>
+      <p class="service-hero-subtitle">A concentrated 30-minute hydromassage session laser-focused on your problem areas. Walk in tense, walk out refreshed — perfect for busy schedules that still deserve real relief.</p>
+      <div class="service-meta">
+        <span class="service-meta-item">30 min</span>
+        <span class="service-meta-item">From $59</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-body">
+    <div class="container">
+      <div class="service-content">
+        <h2>How It Works</h2>
+        <p>The Express Rejuve is designed for people who need real therapeutic results but do not have an hour to spare. In just 30 minutes, focused hydromassage jets target the one or two areas causing you the most discomfort — whether that is a locked-up neck from hours at a screen, a stiff lower back, or tension headaches that will not quit.</p>
+        <p>Because the session is concentrated on fewer zones, the water jets can work at higher intensity for longer on each area, often delivering more targeted relief than a longer full-body session. Many of our clients book Express Rejuve on their lunch breaks and return to work feeling like a different person.</p>
+
+        <h2>What to Expect</h2>
+        <div class="service-steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <div>
+              <h3>Quick Assessment</h3>
+              <p>A brief check-in identifies your primary tension zone and any areas to avoid. No lengthy intake — you are on the bed and feeling relief within minutes of walking in.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <div>
+              <h3>Focused Zone Treatment</h3>
+              <p>High-precision water jets concentrate on your target area with optimized pressure and temperature, working through knots and tension with sustained, consistent force.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <div>
+              <h3>Instant Relief</h3>
+              <p>A brief cool-down phase with reduced pressure leaves the treated area feeling loose and restored. You are ready to get back to your day immediately.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2>Best For</h2>
+        <ul class="service-list">
+          <li>Lunch break relief between meetings</li>
+          <li>Neck and shoulder tension from desk work</li>
+          <li>Lower back pain and stiffness</li>
+          <li>Pre-meeting stress relief</li>
+          <li>Frequent maintenance between longer sessions</li>
+        </ul>
+
+        <h2>Session Options</h2>
+        <div class="service-pricing">
+          <div class="sp-card">
+            <h3>Single Session</h3>
+            <span class="sp-price">$59</span>
+            <span class="sp-dur">30 minutes</span>
+            <p>One focused treatment for immediate relief</p>
+          </div>
+          <div class="sp-card featured">
+            <h3>5-Pack</h3>
+            <span class="sp-price">$259</span>
+            <span class="sp-dur">30 minutes each</span>
+            <p>Save $36 with regular weekly sessions</p>
+          </div>
+          <div class="sp-card">
+            <h3>Monthly Unlimited</h3>
+            <span class="sp-price">$199</span>
+            <span class="sp-dur">30 minutes per visit</span>
+            <p>Come as often as you like all month long</p>
+          </div>
+        </div>
+
+        <div class="service-cta">
+          <a href="../index.html#book" class="btn btn-primary btn-lg">Book This Treatment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 AquaRejuve. All rights reserved. <a href="../index.html">Back to Home</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => { links.classList.toggle('open'); toggle.classList.toggle('active'); });
+  </script>
+</body>
+</html>
