@@ -386,6 +386,33 @@ a.service-card {
   transform: translateX(0);
 }
 
+/* ── Service Includes List ──────────────────────────────────── */
+
+.service-includes {
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 12px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.service-includes li {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  padding: 5px 0 5px 20px;
+  position: relative;
+}
+
+.service-includes li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-primary-light);
+}
+
 /* ── Benefits ───────────────────────────────────────────────── */
 
 .benefits { padding: 100px 0; }
@@ -805,6 +832,7 @@ a.service-card {
   .benefits-grid,
   .pricing-grid,
   .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+  .services-grid.services-grid-3 { grid-template-columns: repeat(3, 1fr); }
   .price-card.featured { transform: scale(1); }
   .price-card.featured:hover { transform: translateY(-4px); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
