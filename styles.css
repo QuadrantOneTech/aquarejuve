@@ -556,7 +556,14 @@ a.service-card {
 .price-duration {
   font-size: 0.85rem;
   color: var(--color-text-muted);
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+}
+
+.price-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 .price-card ul {
