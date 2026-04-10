@@ -5,20 +5,20 @@
    ═════════════���══════════════════════��══════════════════════════ */
 
 :root {
-  --color-bg: #F2F1E9;
-  --color-bg-alt: #E6ECF0;
-  --color-bg-warm: #F2F1E9;
-  --color-bg-dark: #3a362e;
+  --color-bg: #F4F6F5;
+  --color-bg-alt: #E6E9E8;
+  --color-bg-warm: #F4F6F5;
+  --color-bg-dark: #2B2620;
   --color-bg-card: #ffffff;
-  --color-primary: #8C8A80;
-  --color-primary-dark: #6F6D64;
-  --color-primary-light: #A1A6A5;
-  --color-text: #232626;
-  --color-text-light: #6b6e6e;
-  --color-text-muted: #9a9d9d;
-  --color-border: #BFCBD1;
+  --color-primary: #B8ADA1;
+  --color-primary-dark: #9C9A92;
+  --color-primary-light: #C8BFB5;
+  --color-text: #2A2E2D;
+  --color-text-light: #6A6F6E;
+  --color-text-muted: #9C9A92;
+  --color-border: #E6E9E8;
   --color-white: #ffffff;
-  --color-accent: #A1A6A5;
+  --color-accent: #B8ADA1;
   --font-heading: 'Playfair Display', Georgia, serif;
   --font-body: 'Inter', -apple-system, sans-serif;
   --radius: 10px;
@@ -130,7 +130,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 600; line-height
 }
 
 .header.scrolled {
-  background: rgba(242, 241, 233, 0.95);
+  background: rgba(244, 246, 245, 0.95);
   backdrop-filter: blur(12px);
   box-shadow: 0 1px 8px rgba(35, 38, 38, 0.06);
 }
@@ -195,7 +195,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 600; line-height
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #3a362e 0%, #4d493f 40%, #6b6e6e 100%);
+  background: linear-gradient(135deg, #2B2620 0%, #4a453d 40%, #6A6F6E 100%);
   overflow: hidden;
 }
 
@@ -204,14 +204,14 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 600; line-height
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 600px 400px at 20% 80%, rgba(161, 166, 165, 0.12), transparent),
-    radial-gradient(ellipse 400px 300px at 80% 20%, rgba(140, 138, 128, 0.1), transparent);
+    radial-gradient(ellipse 600px 400px at 20% 80%, rgba(184, 173, 161, 0.15), transparent),
+    radial-gradient(ellipse 400px 300px at 80% 20%, rgba(184, 173, 161, 0.1), transparent);
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(38, 34, 26, 0.15);
+  background: rgba(43, 38, 32, 0.12);
 }
 
 .hero-content {
@@ -811,7 +811,7 @@ a.service-card {
 .contact-form select:focus,
 .contact-form textarea:focus {
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(140, 138, 128, 0.1);
+  box-shadow: 0 0 0 3px rgba(184, 173, 161, 0.15);
 }
 
 .contact-form textarea { resize: vertical; }
@@ -819,7 +819,7 @@ a.service-card {
 /* ── Footer ──────────────────────��───────────────────────────�� */
 
 .footer {
-  background: #3a362e;
+  background: #2B2620;
   padding: 60px 0 32px;
   color: rgba(255, 255, 255, 0.45);
 }
